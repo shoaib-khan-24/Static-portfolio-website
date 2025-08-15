@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoaib - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="./assets/css/styles.css" rel="stylesheet">
+    
+    
+</head>
+<body>
+    <header>
+        <nav>                                           
+            <div class="navleft">Shoaib's Portfolio</div>
+            <div class="navright">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="https://github.com/shoaib-khan-24">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="https://www.linkedin.com/in/shoaib-khan-1359ab279/">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="my_name">Shoaib</span>
+                <div>And I am a passionate</div>
+                <div class="text-purple">Software Engineer</div>
+                <span id="element"></span>
+                <div class="btn-box">
+                    <a href="https://github.com/shoaib-khan-24"><button class="btn">Visit-Github</button></a>
+                    <a href="https://www.linkedin.com/in/shoaib-khan-1359ab279/"><button class="btn">Let's Connect</button></a>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="./assets/images/bg.png" alt="bg-image" >
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Past Projects</h1>
+            <div class="box">
+                <div class="vertical">
+                    <div class="project-title">Portfolio Home Page</div>
+                    <img class="project-img" src="./assets/images/proj1.png" alt="project-png">
+                    
+                </div>
+                <div class="vertical">
+                    <div class="project-title">LeetCode Calender</div>
+                    <img class="project-img"  src="./assets/images/proj2.png" alt="project-png">
+                    
+                </div>
+                <div class="vertical">
+                    <div class="project-title">Badge LC-50 Days</div>
+                    <img class="project-img"  src="./assets/images/proj3.png" alt="project-png">
+                    
+                </div>
+                <div class="vertical">
+                    <div class="project-title">Twitter-Complaint Bot</div>
+                    <img class="project-img"  src="./assets/images/proj4.png" alt="project-png">
+                    
+                </div>
+            </div>
+            <div class="project-desc-box">
+                <div class="project-desc project-desc-1">This portfolio is a collection of my projects, skills, and achievements as a developer. It reflects my journey in programming, showcasing work in Python, web development, and problem-solving. Each section highlights my growth, creativity, and dedication to building impactful solutions through code and continuous learning.</div>
+                <div class="project-desc">This LeetCode calendar showcases my daily problem-solving journey, tracking consistency and progress in Data Structures and Algorithms. Each completed day represents a challenge solved, reflecting dedication toward improving my coding skills. It’s not just about streaks—it’s about growth, discipline, and becoming a better programmer over time.</div>
+                <div class="project-desc">The LeetCode 50 Days Badge marks my commitment to consistent coding practice for 50 consecutive days. It reflects dedication, discipline, and continuous improvement in problem-solving and Data Structures & Algorithms. This milestone is a step forward in sharpening my skills and preparing for challenging programming opportunities ahead.</div>
+                <div class="project-desc">This Twitter Complaint Bot automates posting complaints on Twitter using Selenium. Designed to save time and effort, it navigates the platform, logs in, and tweets messages programmatically. It demonstrates my skills in Python automation, web interaction, and problem-solving through practical, real-world applications of programming</div>
+            </div>
+            
+        </section>
+
+        <footer>     
+            <div class="footer-container">
+                <div class="company-box">@ Shoaib khan</div>
+                <div class="contact-info">
+                    <ul>
+                        <li><a href="https://leetcode.com/u/shoaib-khan-24/">LeetCode</a></li>
+                        <li><a href="https://www.geeksforgeeks.org/user/khanshoaibenze/">GeeksForGeeks</a></li>
+                        <li><a href="https://github.com/shoaib-khan-24">Github</a></li>
+                    </ul>
+                </div>
+                <div class="contact-info">
+                    <ul>
+                        <li><a href="https://x.com/shoaib_khan_03">Twitter</a></li>
+                        <li><a href="https://www.linkedin.com/in/shoaib-khan-1359ab279/">LinkedIn</a></li>
+                        <li><a href="mailto:khanshoaib24122003@gmail.com">Email address</a></li>
+                    </ul>
+                </div>
+            </div>       
+        </footer>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+    var typed = new Typed('#element', {
+      strings: ['Web developer', 'Automation engineer', 'Problem solver'],
+      typeSpeed: 50,
+    });
+    </script>
+</body>
+</html>

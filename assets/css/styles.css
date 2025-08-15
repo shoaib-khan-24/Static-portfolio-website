@@ -1,0 +1,173 @@
+        *{
+            margin: 0px;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(11, 5, 56);
+            color: white;
+            font-family:  "Poppins", sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(37, 17, 153);
+        }
+        .navright ul{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navright ul li{
+            list-style: none;
+            margin: 0px 20px;
+        }
+        .navright ul li a{
+            color: white;
+            text-decoration: none;
+        }
+        .navright ul li a:hover{
+            color: rgb(198, 198, 234);
+            font-size: 1.05rem;
+            
+        }
+        .navleft{
+            font-size: 2rem;
+            margin-left: 30px;
+        }
+        .firstSection{
+            
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 18px;
+           
+        }
+        .leftSection{
+            width: 40%;
+            font-size: 2.3rem;
+        }
+        .rightSection{
+            width: 40%;       
+        }
+        .rightSection img{
+            width: 90%;
+        }
+        .my_name{
+            color: rgb(165, 134, 215);
+        }
+        #element{
+            color: rgb(165, 134, 215);
+        }
+        .btn-box{
+            margin-top: 30px;
+            margin-left: 5px;
+        }
+        .btn{
+            background-color: rgb(29, 14, 116);
+            border: none;
+            color: white;
+            font-size: 1.5rem;
+            padding: 10px 22px;
+            text-align: center;
+            text-decoration: none;
+            margin: 0px 7px;
+            cursor: pointer;
+            border-radius: 26px;
+        }
+        .btn:hover{
+            background-color: rgb(197, 188, 212);
+            color: rgb(29, 14, 116);
+            font-size: 1.6rem;
+        }
+        main hr{
+            margin: 40px 5%;        
+            border: 0;
+            height: 1.2px;
+            width: 90%;            
+            background-color: rgb(184, 158, 227);
+        }
+        .secondSection{
+            width: 85vw;
+            margin: auto;
+        }
+        .secondSection h1{
+            font-size: 1.8rem;                                      
+        }
+        .text-gray{
+            color: gray;
+        }
+        .text-purple{
+            color:rgb(165, 134, 215);
+        }
+        .secondSection .box{
+            height: 2px;
+            width: 80%;
+            background-color: white;
+            margin-top: 80px;
+            margin-left: 6%;
+            display: flex;
+            justify-content: space-between;
+        }
+        .secondSection .box .vertical{
+            height: 70px;
+            width: 1px;
+            background-color: white;
+
+        }
+        .project-img{
+            position: relative;
+            top:80px;
+            left: -20px;
+            height: 140px;
+            width: 140px;
+            border-radius: 8px;
+        }
+        .project-title{
+            font-size: 1.2rem;
+            position: relative;
+            width: 150px;
+            top: 70px;
+            left: -10px;
+        }
+        .project-desc-box{
+            display: flex;
+            position: relative;
+            top: 300px;
+        }
+        .project-desc{
+            font-size: 0.9rem;
+            color:rgb(165, 151, 167);
+            width: 320px;
+            margin-left: 90px;
+            
+        }
+        .project-desc-1{
+            margin-left: 50px;
+        }
+        footer{
+            background-color: rgb(27, 23, 54);
+            position: relative;
+            top: 350px;
+        }
+        .footer-container{
+            padding: 40px 30px 15px 30px;
+            width: 80%;
+            margin-left: 10%;
+            display: flex;
+            justify-content: space-between;
+        }
+        .contact-info ul li{
+            list-style: none;
+            margin-bottom: 12px;
+        }
+        .contact-info ul li a{
+            color: white;
+            text-decoration: none;
+        }
+        .contact-info ul li a:hover{
+            color: rgb(198, 198, 234);
+            font-size: 1.05rem;
+            
+        }
